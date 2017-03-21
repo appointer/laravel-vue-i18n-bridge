@@ -30,7 +30,7 @@ The next step is to register the service provider:
 // config/app.php
 'providers' => [
     ...
-    Appointer\VueTranslation\VueTranslationServiceProvider::class,
+    \Appointer\VueTranslation\VueTranslationServiceProvider::class,
 ];
 ```
 

@@ -1,0 +1,31 @@
+{
+    "name": "appointer/laravel-vue-i18n-bridge",
+    "description": "Exposes laravel translations through api routes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Rudat",
+            "email": "frudat@doegel.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Appointer\\VueTranslation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Appointer\\VueTranslation\\": "tests/"
+        }
+    },
+    "require": {
+        "illuminate/translation": "^5.4",
+        "illuminate/contracts": "^5.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.4",
+        "phpunit/phpunit": "^5.7",
+        "mockery/mockery": "^0.9.9"
+    }
+}

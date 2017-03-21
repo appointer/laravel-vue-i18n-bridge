@@ -1,4 +1,4 @@
-# Laravel vue-i18n Bridge
+# Laravel vue-i18n Bridge [![CircleCI](https://circleci.com/gh/appointer/laravel-vue-i18n-bridge.svg?style=svg)](https://circleci.com/gh/appointer/laravel-vue-i18n-bridge)
 
 This bridge gives you full freedom of translating your Vue (especially SPA) frontend with Laravels built-in translation techniques,
 without sacrificing frontend performance or general user experience. It ensures that only the client requested language has to be downloaded 

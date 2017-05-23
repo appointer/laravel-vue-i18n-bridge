@@ -1,5 +1,8 @@
 # Laravel vue-i18n Bridge [![CircleCI](https://circleci.com/gh/appointer/laravel-vue-i18n-bridge.svg?style=svg)](https://circleci.com/gh/appointer/laravel-vue-i18n-bridge)
 
+## Deprecation notice
+THIS PACKAGE IS NO LONGER MAINTAINED SINCE THE DYNAMIC LOCALE FEATURE OF VUE-I18N IS DROPPED IN VERSION 6.x. IF THERE WILL BE ANYTHING LIKE THIS COMMING BACK TO VUE-I18N, WE MIGHT CONSIDER PICKING UP MAINTENANCE FOR THIS PACKAGE AGAIN.
+
 This bridge gives you full freedom of translating your Vue (especially SPA) frontend with Laravels built-in translation techniques,
 without sacrificing frontend performance or general user experience. It ensures that only the client requested language has to be downloaded 
 by the client. You are no longer forced to either maintain a second place for translation in javascript, or pregenerate a javascript file
